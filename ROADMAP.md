@@ -1,28 +1,16 @@
-# Infrastructure Security Reference Lab — ADHD-Friendly Build Checklist
-
-> **Rule:** Only work on one checkbox group at a time.  
-> **Goal:** Finish small, working phases you can explain in an interview.  
-> **Status key:** ⬜ Not started · 🟨 In progress · ✅ Complete · 🛑 Blocked
-
----
+# Infrastructure Security
 
 # Project Dashboard
 
-## Current Focus
-- [ ] Current phase:
-- [ ] Today’s tiny goal:
-- [ ] Time box: 30 / 60 / 90 minutes
-- [ ] Stop point:
-
 ## Overall Progress
-- [ ] Phase 0 — Repository setup
-- [ ] Phase 1 — Linux hardening with Ansible
-- [ ] Phase 2 — Network segmentation and firewall
-- [ ] Phase 3 — Terraform and AWS
-- [ ] Phase 4 — Monitoring and vulnerability management
-- [ ] Phase 5 — CI/CD security
-- [ ] Phase 6 — Kerberos and HPC fundamentals
-- [ ] Phase 7 — Portfolio write-up
+- Phase 0 — Repository setup
+- Phase 1 — Linux hardening with Ansible
+- Phase 2 — Network segmentation and firewall
+- Phase 3 — Terraform and AWS
+- Phase 4 — Monitoring and vulnerability management
+- Phase 5 — CI/CD security
+- Phase 6 — Kerberos and HPC fundamentals
+- Phase 7 — Portfolio write-up
 
 ---
 
@@ -35,7 +23,7 @@ Creating one organized repository that will hold every part of the lab.
 It shows planning, documentation, Git usage, and security architecture thinking.
 
 ## Checklist
-- [ ] Create GitHub repository: `infrastructure-security-reference-lab`
+- [x] Create GitHub repository: `infrastructure-security-reference-lab`
 - [ ] Add a short README
 - [ ] Credit the starter repository under **Inspiration**
 - [ ] Add project status: `In Progress`
