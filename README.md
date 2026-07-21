@@ -1,17 +1,31 @@
 # Infrastructure Security Reference Lab
 
-Project to demostrate knowledge of these systems/programs/concepts:
+## High-Level Architecture
 
-ansible/
+```mermaid
+graph TD
+    Internet((Internet))
 
-terraform/
+    Firewall[OPNsense Firewall]
 
-networking/
+    Mgmt[Management Network]
+    Internal[Internal Network]
+    DMZ[DMZ Network]
 
-monitoring/
+    Ansible[Ansible Control Node]
+    Linux[Linux Server]
+    Web[Public Web Server]
+    Wazuh[Wazuh SIEM]
 
-vulnerability-management/
+    Internet --> Firewall
 
-ci/
+    Firewall --> Mgmt
+    Firewall --> Internal
+    Firewall --> DMZ
 
-hpc/
+    Mgmt --> Ansible
+    Internal --> Linux
+    DMZ --> Web
+
+    Linux --> Wazuh
+    Web --> Wazuh
